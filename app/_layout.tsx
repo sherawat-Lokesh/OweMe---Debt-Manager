@@ -7,7 +7,7 @@ export default function TabLayout() {
         <Label>Transactions</Label>
         <Icon sf={{default : "book.pages", selected : "book.pages.fill"}} drawable="custom_android_drawable" />
       </NativeTabs.Trigger>
-      <NativeTabs.Trigger name="home">
+      <NativeTabs.Trigger name="loans">
         <Label>Loans</Label>
         <Icon sf={{default : "creditcard", selected : "creditcard.fill"}} drawable="custom_android_drawable" />
       </NativeTabs.Trigger>
